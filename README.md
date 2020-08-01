@@ -11,6 +11,7 @@ Eine Lambda-Funktion überprüft in Abständen von 15 Minuten den Status deines 
 **Voraussetzungen:**
 - Node.js 12
 - Einen [AWS](https://aws.amazon.com/de/) Account (ein AWS Educate Account von der HdM sollte ebenfalls reichen)
+- [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html) mit konfigurierten Credentials für das `default` Profil 
 - Serverless CLI (`npm install -g serverless`)
 
 1. `git clone https://github.com/mg98/hdm-notenspiegel-update-notifier`
