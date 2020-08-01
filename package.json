@@ -1,0 +1,22 @@
+{
+  "name": "hdm-notenspiegel-update-notifier",
+  "version": "1.0.0",
+  "description": "Informiert dich per SMS über Änderungen an deinem Notenspiegel",
+  "main": "handler.js",
+  "scripts": {
+    "start": "sls invoke local -f notenspiegelNotify -l",
+    "deploy": "sls deploy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.725.0",
+    "cheerio": "^1.0.0-rc.3",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "serverless-dotenv-plugin": "^3.0.0"
+  }
+}
