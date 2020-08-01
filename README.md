@@ -18,7 +18,7 @@ Eine Lambda-Funktion überprüft in Abständen von 15 Minuten den Status deines 
 3. `cp .env.example .env`
 4. Bearbeite die Datei `.env` um hier dein HdM-Kürzel, Passwort und deine Handynummer einzugeben. Bitte denke daran, Sonderzeichen mit einem `\` zu escapen.
 5. `npm install`
-6. `npm run deploy`
+6. `sls deploy`
 
 Auf deinem AWS Account wurde jetzt eine Lambda-Funktion initiiert, welche alle 15 Minuten ausgeführt wird und dich up-to-date halten wird, wenn sich etwas an deinem Notenspiegel ändert. Du bist nun fertig!
 
